@@ -1,11 +1,11 @@
-Credit Policy Analysis & Machine Learning Modeling
+## Credit Policy Analysis & Machine Learning Modeling
 
 This project focuses on credit policy analysis using historical loan data.
 The main objective is to understand portfolio performance over time, engineer stable and interpretable features, and train machine learning models to support credit decision-making.
 
 The analysis combines risk analytics best practices with modern ML interpretability techniques.
 
-1️. Vintage Analysis
+### 1️. Vintage Analysis
 
 Evaluation of credit performance by origination cohort.
 
@@ -23,7 +23,7 @@ Default rate evolution by vintage
 
 Cohort-level performance comparison
 
-2. Feature Engineering
+### 2. Feature Engineering
 
 Feature engineering is designed to ensure model stability, robustness, and interpretability.
 
@@ -55,7 +55,7 @@ Remove redundant features
 
 Improve model interpretability and numerical stability
 
-3️. Machine Learning Models
+### 3️. Machine Learning Models
 
 Several machine learning models are trained and evaluated, including:
 
@@ -71,7 +71,7 @@ Precision / Recall
 
 Models are trained using time-aware validation to avoid look-ahead bias.
 
-4. Model Explainability with SHAP
+### 4. Model Explainability with SHAP
 
 SHAP (SHapley Additive exPlanations) is used to ensure transparent and explainable credit decisions.
 
